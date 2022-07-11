@@ -9,7 +9,7 @@ const App2 = () => {
     recipevar();
   }, []);
 
-  const [inputvalue, setInputvalue] = useState("")
+  const [inputvalue, setInputvalue] = useState("mango")
   const [Submitdata, setSubmitdata] = useState("")
   const [recipedata, setRecipedata] = useState([]);
   
